@@ -533,9 +533,6 @@ body {
 .clients-item {
   width: 170px;
   height: 92px;
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link {
@@ -546,6 +543,9 @@ body {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {

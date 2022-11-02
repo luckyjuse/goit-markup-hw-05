@@ -166,6 +166,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
+  outline: 0;
   position: relative;
 
   transition-property: color;
@@ -230,6 +231,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--paragraph-text-color);
   text-decoration: none;
+  outline: 0;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -496,6 +498,7 @@ body {
   align-items: center;
   border-radius: 50%;
   fill: var(--secondary-icon-color);
+  outline: 0;
 
   transition-property: fill, background-color;
   transition-duration: 250ms;
@@ -546,6 +549,7 @@ body {
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: 0;
 }
 
 .clients-icon {
@@ -665,6 +669,7 @@ body {
   width: 100%;
   height: 100%;
   fill: #ffffff;
+  outline: 0;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -703,6 +708,7 @@ body {
 .portfolio-link {
   display: block;
   text-decoration: none;
+  outline: 0;
 
   transition-property: box-shadow;
   transition-duration: 250ms;
